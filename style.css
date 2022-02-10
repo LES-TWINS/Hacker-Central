@@ -6,7 +6,8 @@
 }
 
 .navbar {
-  background-color: #112026;
+  padding-top: 25px;
+  background-color: #0f1d22;
 }
 
 .nav-link {
@@ -18,5 +19,138 @@
   color: white;
   border: 1px solid white;
   border-radius: 25px;
+}
+
+section {
+  width: 100%;
+  height: 90vh;
+  background-color: #112026;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 150px;
+  padding-top: 300px;
+}
+
+.icon img {
+  border-radius: 50%;
+}
+
+.icon img:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.ang_icon {
+  height: 100px;
+  position: absolute;
+  left: 59%;
+  top: 50%;
+  -webkit-box-shadow: 0px 0px 15px 0px red;
+          box-shadow: 0px 0px 15px 0px red;
+}
+
+.ang_icon:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px red;
+          box-shadow: 0px 0px 22px 0px red;
+}
+
+.html_icon {
+  height: 100px;
+  position: absolute;
+  left: 57%;
+  top: 34%;
+  -webkit-box-shadow: 0px 0px 15px 0px #DB4A25;
+          box-shadow: 0px 0px 15px 0px #DB4A25;
+}
+
+.html_icon:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px #DB4A25;
+          box-shadow: 0px 0px 22px 0px #DB4A25;
+}
+
+.css_icon {
+  height: 100px;
+  position: absolute;
+  left: 60%;
+  top: 18%;
+  -webkit-box-shadow: 0px 0px 15px 0px #1471B6;
+          box-shadow: 0px 0px 15px 0px #1471B6;
+}
+
+.css_icon:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px #1471B6;
+          box-shadow: 0px 0px 22px 0px #1471B6;
+}
+
+.js_icon {
+  height: 100px;
+  position: absolute;
+  left: 70%;
+  top: 15%;
+  -webkit-box-shadow: 0px 0px 15px 0px #C5A92C;
+          box-shadow: 0px 0px 15px 0px #C5A92C;
+}
+
+.js_icon:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px #C5A92C;
+          box-shadow: 0px 0px 22px 0px #C5A92C;
+}
+
+.python_icon {
+  height: 100px;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  -webkit-box-shadow: 0px 0px 15px 0px #34576B;
+          box-shadow: 0px 0px 15px 0px #34576B;
+}
+
+.python_icon:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px #34576B;
+          box-shadow: 0px 0px 22px 0px #34576B;
+}
+
+.node_icon {
+  height: 100px;
+  position: absolute;
+  left: 83%;
+  top: 35%;
+  -webkit-box-shadow: 0px 0px 15px 0px #8BC64B;
+          box-shadow: 0px 0px 15px 0px #8BC64B;
+}
+
+.node_icon:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px #8BC64B;
+          box-shadow: 0px 0px 22px 0px #8BC64B;
+}
+
+.c_icon {
+  height: 100px;
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  -webkit-box-shadow: 0px 0px 15px 0px #9C5196;
+          box-shadow: 0px 0px 15px 0px #9C5196;
+}
+
+.c_icon:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px #9C5196;
+          box-shadow: 0px 0px 22px 0px #9C5196;
+}
+
+.b_icon {
+  height: 100px;
+  position: absolute;
+  left: 70%;
+  top: 55%;
+  -webkit-box-shadow: 0px 0px 15px 0px #9C5196;
+          box-shadow: 0px 0px 15px 0px #9C5196;
+}
+
+.b_icon:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px #9C5196;
+          box-shadow: 0px 0px 22px 0px #9C5196;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="54" viewBox="0 0 117 54">
+  <g id="Group_3" data-name="Group 3" transform="translate(-153 -27)">
+    <text id="h" transform="translate(187 65)" fill="#fff" font-size="38" font-family="Outfit-Bold, Outfit" font-weight="700"><tspan x="0" y="0">H</tspan></text>
+    <text id="c" transform="translate(206 65)" fill="#fff" font-size="37" font-family="Outfit-Bold, Outfit" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+    <text id="hacker" transform="translate(153 78)" fill="#fff" font-size="13" font-family="Outfit-Bold, Outfit" font-weight="700"><tspan x="0" y="0">HACKER</tspan></text>
+    <text id="central" transform="translate(210 78)" fill="#fff" font-size="13" font-family="Outfit-Bold, Outfit" font-weight="700"><tspan x="0" y="0">CENTRAL</tspan></text>
+    <text id="_" data-name="&lt;" transform="translate(171 62)" fill="#fff" font-size="28" font-family="Outfit-Bold, Outfit" font-weight="700"><tspan x="0" y="0">&lt;</tspan></text>
+    <text id="_2" data-name="&gt;" transform="translate(243 62)" fill="#fff" font-size="28" font-family="Outfit-Bold, Outfit" font-weight="700"><tspan x="0" y="0">&gt;</tspan></text>
+    <line id="Line_1" data-name="Line 1" x1="10" y2="20" transform="translate(233 42)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>
