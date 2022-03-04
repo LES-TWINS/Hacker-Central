@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Helvetica Neue LT GEO 55 Roman ' !important;
+}
 .navbar{
     padding-top: 25px;
     background-color: #0f1d22;
@@ -20,13 +23,6 @@
 section{
     width: 100%;
     height: 90vh;
-    background-color: #112026;
-
-
-
-
-    
-
     h1{
         text-align: center;
         font-size: 150px;
@@ -47,7 +43,6 @@ section{
     position: absolute;
     left: 59%;
     top: 50%;
-    box-shadow: 0px 0px 15px 0px rgb(255, 0, 0);
     &:hover{
         box-shadow: 0px 0px 22px 0px rgb(255, 0, 0);
     }
@@ -57,7 +52,6 @@ section{
     position: absolute;
     left: 57%;
     top: 34%;
-    box-shadow: 0px 0px 15px 0px #DB4A25;
     &:hover{
         box-shadow: 0px 0px 22px 0px #DB4A25;;
     }
@@ -67,7 +61,6 @@ section{
     position: absolute;
     left: 60%;
     top: 18%;
-    box-shadow: 0px 0px 15px 0px #1471B6;
     &:hover{
         box-shadow: 0px 0px 22px 0px #1471B6;
     }
@@ -78,7 +71,7 @@ section{
     position: absolute;
     left: 70%;
     top: 15%;
-    box-shadow: 0px 0px 15px 0px #C5A92C;
+
     &:hover{
         box-shadow: 0px 0px 22px 0px #C5A92C;
     }
@@ -88,7 +81,6 @@ section{
     position: absolute;
     left: 80%;
     top: 20%;
-    box-shadow: 0px 0px 15px 0px #34576B;
     &:hover{
         box-shadow: 0px 0px 22px 0px #34576B;
     }
@@ -98,7 +90,6 @@ section{
     position: absolute;
     left: 83%;
     top: 35%;
-    box-shadow: 0px 0px 15px 0px #8BC64B;
     &:hover{
         box-shadow: 0px 0px 22px 0px #8BC64B;
     }
@@ -108,7 +99,6 @@ section{
     position: absolute;
     left: 80%;
     top: 50%;
-    box-shadow: 0px 0px 15px 0px #9C5196;
     &:hover{
         box-shadow: 0px 0px 22px 0px #9C5196;
     }
@@ -118,8 +108,155 @@ section{
     position: absolute;
     left: 70%;
     top: 55%;
-    box-shadow: 0px 0px 15px 0px #9C5196;
     &:hover{
         box-shadow: 0px 0px 22px 0px #9C5196;
     }
+}
+
+
+
+
+
+
+
+
+.intro{
+ margin-top: 50px;
+ padding: 35px;
+ background-color: #a2a9ac34;
+ 
+}
+.intro{
+    span {
+        font-size: 22px;
+        margin-top: 85px;
+    }
+  .hacker_title{
+      opacity: 56%;
+  }
+}
+.intro-box{
+    margin-left: 40px;
+}
+.title-box{
+    margin-top: 20px;
+}
+.card-title,.direction{
+    font-family: 'Outfit', sans-serif;
+}
+.direction {
+    font-size: 14px;
+}
+.course-box{
+    margin-top: 50px;
+}
+.card1,.card4{
+    height: 310px;
+    width: 215px;
+}
+.card1{
+    background-color: #e34c26;
+    box-shadow: 0px 0px 22px 0px #e34c26;
+
+}
+.course_card{
+    border-radius: 20px;
+    border: none;
+
+}
+.card-body{
+    color: white;
+}
+.card-text{
+    display: contents;
+}
+.radius,.radius2,.radius3,.radius4,.radius5,.radius6{
+    border-radius: 50%;
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 250px;
+  
+}
+
+.radius{
+    left: 129px;
+    z-index: 9999;
+}
+.radius2,.radius6{
+    left: 160px;
+}
+.course_css{
+    position: absolute;
+    top: 258px;
+    left: 123px;
+    z-index: 9999;
+    width: 55px;
+}
+.course_html{
+    
+    position: absolute;
+    width: 52px;
+    top: 255px;
+    left: 157px;
+
+}
+.card2{
+    background-color: #662078;
+    width: 214px;
+    height: 221px;
+    box-shadow: 0px 0px 22px 0px #662078;
+}
+.radius3{
+    top: 160px;
+    left: 129px;
+    z-index: 9999;
+   
+}
+.radius4{
+    top: 160px;
+    left: 159px;
+
+}
+.course_c{
+    position: absolute;
+    width: 52px;
+    top: 157px;
+    left: 157px;
+}
+.course_asp{
+    position: absolute;
+    width: 52px;
+    top: 157px;
+    left: 125px;
+    z-index: 9999;
+}
+.card3{
+    background-color: #3E863D;
+    width: 214px;
+    height: 268px;
+    box-shadow: 0px 0px 22px 0px #3E863D;
+}
+.course_node{
+    position: absolute;
+    width: 95px;
+    top: 209px;
+    left: 135.5px;
+  
+}
+.radius5{
+    top: 205px;
+    left: 159px;
+    
+}
+.card4{
+    background-color: #EA7C26;
+    box-shadow: 0px 0px 22px 0px #EA7C26;
+}
+.course_swift{
+    position: absolute;
+    top: 253px;
+    left: 163px;
+    width: 35px;
 }
