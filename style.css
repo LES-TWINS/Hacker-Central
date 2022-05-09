@@ -10,7 +10,6 @@ body {
 }
 
 .navbar {
-  padding-top: 25px;
   background-color: #0f1d22;
 }
 
@@ -183,8 +182,6 @@ section h1 {
 
 .card1 {
   background-color: #e34c26;
-  -webkit-box-shadow: 0px 0px 22px 0px #e34c26;
-          box-shadow: 0px 0px 22px 0px #e34c26;
 }
 
 .course_card {
@@ -237,8 +234,6 @@ section h1 {
   background-color: #662078;
   width: 214px;
   height: 221px;
-  -webkit-box-shadow: 0px 0px 22px 0px #662078;
-          box-shadow: 0px 0px 22px 0px #662078;
 }
 
 .radius3 {
@@ -271,8 +266,6 @@ section h1 {
   background-color: #3E863D;
   width: 214px;
   height: 268px;
-  -webkit-box-shadow: 0px 0px 22px 0px #3E863D;
-          box-shadow: 0px 0px 22px 0px #3E863D;
 }
 
 .course_node {
@@ -289,8 +282,6 @@ section h1 {
 
 .card4 {
   background-color: #EA7C26;
-  -webkit-box-shadow: 0px 0px 22px 0px #EA7C26;
-          box-shadow: 0px 0px 22px 0px #EA7C26;
 }
 
 .course_swift {
@@ -298,5 +289,203 @@ section h1 {
   top: 253px;
   left: 163px;
   width: 35px;
+}
+
+.sec_row {
+  margin-top: 10px;
+}
+
+.sec_row, .eighth_card {
+  width: 214px;
+  height: 221px;
+}
+
+.sixth_card {
+  position: absolute;
+  left: 32.8%;
+  top: 59%;
+  height: 310px;
+  width: 215px;
+}
+
+.seventh_card {
+  position: absolute;
+  left: 50%;
+  top: 64%;
+  width: 214px;
+  height: 268px;
+}
+
+.eighth_card {
+  position: absolute;
+  left: 67.2%;
+  top: 68%;
+}
+
+.card-column a {
+  text-decoration: none;
+}
+
+.long_card {
+  height: 310px;
+  width: 215px;
+}
+
+.short_card {
+  width: 214px;
+  height: 221px;
+  margin-left: 115px;
+}
+
+.middle_card {
+  width: 214px;
+  height: 268px;
+  margin-left: 116px;
+}
+
+.long_card2 {
+  height: 310px;
+  width: 215px;
+  margin-left: 115px;
+}
+
+.lecturers-box {
+  margin-top: 40px;
+}
+
+.lecture_card {
+  border-radius: 20px;
+}
+
+.lecture_card img {
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.card-1 {
+  border: 3px solid #662078;
+}
+
+.card-2 {
+  border: 3px solid #DCBD39;
+}
+
+.card-3 {
+  border: 3px solid #306FBD;
+}
+
+.card-4 {
+  border: 3px solid #8EC850;
+}
+
+.card-title {
+  color: black;
+  text-align: center;
+}
+
+.about_txt p {
+  margin-top: 30px;
+  margin-left: 150px;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.div_line {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.msg {
+  border-bottom: 2px solid black;
+  font-size: 20px;
+}
+
+.input-group i {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 9999;
+}
+
+.input-group ::-webkit-input-placeholder {
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
+
+.input-group :-ms-input-placeholder {
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
+
+.input-group ::-ms-input-placeholder {
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
+
+.input-group ::placeholder {
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
+
+.input-group textarea {
+  height: 120px;
+}
+
+.input-group input, .input-group textarea {
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+  border-color: #0F1D22 !important;
+  -webkit-box-shadow: 0px 0px 15px 0px #0F1D22 !important;
+          box-shadow: 0px 0px 15px 0px #0F1D22 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.input-group input:focus::-webkit-input-placeholder, .input-group textarea:focus::-webkit-input-placeholder {
+  color: #0F1D22 !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.join a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #0F1d22;
+  margin-top: 10px;
+}
+
+.join i {
+  margin-right: 5px;
+}
+
+.join p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.blog_box {
+  margin-top: 30px;
+}
+
+.blog_card {
+  border: 1px solid rgba(0, 0, 0, 0.527);
+}
+
+.blog_card img {
+  height: 400px !important;
+}
+
+.blog_title {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
