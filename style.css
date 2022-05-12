@@ -349,6 +349,88 @@ section h1 {
   margin-left: 115px;
 }
 
+#syllabus {
+  display: none;
+}
+
+.syl_sec a {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.syl_sec a span {
+  vertical-align: middle;
+  margin-left: 20px;
+  color: #1f8ab1;
+}
+
+.syl_sec a i {
+  color: #0F1D22;
+  vertical-align: middle;
+  font-size: 40px;
+}
+
+.syl-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.syl-intro .syl-details {
+  margin-top: 15px;
+}
+
+.syl-intro p {
+  font-weight: 600;
+}
+
+.syl-intro p:first-child {
+  background-color: #112026;
+  color: white;
+  padding-left: 7px;
+}
+
+.syl-intro .syl {
+  height: 140px;
+  margin-right: 30px;
+}
+
+.cour_title {
+  text-align: center;
+}
+
+.cour_title h3 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+.cour_title p {
+  margin: 20px 120px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.cour_title .btn {
+  background-color: #112026;
+  border-color: #112026;
+  padding: 12px 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.cour_title .btn:focus {
+  -webkit-box-shadow: 0px 0px 15px 0px #0F1D22 !important;
+          box-shadow: 0px 0px 15px 0px #0F1D22 !important;
+}
+
 .lecturers-box {
   margin-top: 40px;
 }
