@@ -19,6 +19,9 @@ body{
     border-radius: 25px;
   
 }
+.icon, section{
+    display: none;
+}
 
 section{
     width: 100%;
@@ -112,6 +115,92 @@ section{
         box-shadow: 0px 0px 22px 0px #9C5196;
     }
 }
+
+
+
+
+form{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.form-outline{
+    input{
+       border-top: 0;
+       border-left: 0;
+      border-right: 0;
+  
+    }
+    ::placeholder{
+        color: #0F1D22 !important;
+        font-size: 13px;
+       
+       }
+       p{
+           color: black;
+           font-size: 11px;
+           text-align: end;
+
+       }
+       a{
+           text-decoration: none;
+       }
+}
+.text-center{
+    color: #272727;
+    font-size: 22px;
+    font-weight: bold;
+}
+.second_reg_btn{
+    background-color: #112026;
+    color: white !important;
+    border-radius: 35px;
+    border: 1px solid;
+    margin-top: 20px;
+    &:hover{
+        background-color: white;
+        color: #0f1d22 !important;
+        border: 1px solid #0f1d22 !important;
+        transition: 0.5s;
+    }
+   
+}
+
+.registration_card{
+    flex-direction: row;
+    // border: 3px solid rgb(255, 255, 255);
+    .second_body{
+        background-color: #112026;
+        border-bottom-right-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+}
+.first_reg_btn{
+    background-color: #112026;
+    color: white !important;
+    border-color: white;
+    border-radius: 35px;
+    padding: 7px 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    &:hover{
+        border-color: #112026;
+        background-color: white;
+        color: #112026 !important;
+        transition: 0.5s;
+    }
+}
+.card-body{
+    h4{
+        text-align: center;
+        margin-top: 50px;
+    }
+    h6{
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
 
 
 

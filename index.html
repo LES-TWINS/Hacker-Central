@@ -38,12 +38,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">კონტაქტი</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ავტორიზაცია</a>
+              </li>
             </ul>
-            
           </div>
-          <form class="d-flex">
-            <div class="btn btn-outline-dark reg_btn">ავტორიზაცია</div>
-          </form>
         </div>
       </nav>
     </div>
@@ -62,6 +61,55 @@
    
       </section>
 
+
+      
+      <div class="mask d-flex align-items-center h-100 gradient-custom-3" >
+        <div class="container h-100">
+          <div class="form_row row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-8">
+              <div class="registration_card card" style="border-radius: 15px;">
+                <div class="card-body p-5">
+                  <h2 class="text-center mb-5">ავტორიზაცია</h2>
+                  <form>
+                    <div class="form-outline mb-4">
+                      <input type="email" id="form3Example3cg" class="form-control form-control" placeholder="ელ-ფოსტა" />
+                      <label class="form-label" for="form3Example3cg"></label>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <input type="password" id="form3Example3cg" class="form-control form-control" placeholder="პაროლი" />
+                      <label class="form-label" for="form3Example3cg"></label>
+                      <a href="#"><p>დაგავიწყდა პაროლი ?</p></a> 
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <button type="button" class="second_reg_btn btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="showSuccess()" id="success_btn">ავტორიზაცია</button>
+                    </div>
+                  </form>
+                  <div class="close_btn">
+                 <i class="fas fa-times  close-btn" onclick="hide()"></i>
+                </div>
+                </div>
+
+                <div class="card-body second_body p-5">
+                  <h4>გამარჯობა!</h4>
+                  <h6>არ ხარ რეგისტრირებული ?</h6>
+                  <form>
+                  
+                  
+                    <div class="d-flex justify-content-center">
+                      <button type="button" class="first_reg_btn btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="showSuccess()" id="success_btn">რეგისტრაცია</button>
+                    </div>
+                  </form>
+                  <div class="close_btn">
+                 <i class="fas fa-times  close-btn" onclick="hide()"></i>
+                </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
      
 
