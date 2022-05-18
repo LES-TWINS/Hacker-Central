@@ -39,36 +39,35 @@
                 <a class="nav-link" href="./contact.html">კონტაქტი</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ავტორიზაცია</a>
+                <a class="nav-link" id="join" href="#" >ავტორიზაცია</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </div>
-      <section>
-       
-        <div class="icon container">
-         <a href=""> <img src="./icons/angular.svg" alt="" class="ang_icon"></a>
-         <a href=""> <img src="./icons/html.svg" alt="" class="html_icon"></a>
-        <a href=""> <img src="./icons/css.svg" alt="" class="css_icon"></a>
-         <a href=""> <img src="./icons/js.svg" alt="" class="js_icon"></a>
-         <a href=""> <img src="./icons/python.svg" alt="" class="python_icon"></a>
-         <a href=""> <img src="./icons/node.svg" alt="" class="node_icon"></a>
-         <a href=""> <img src="./icons/c.svg" alt="" class="c_icon"></a>
-         <a href=""> <img src="./icons/c.svg" alt="" class="b_icon"></a>
-        </div>
-   
-      </section>
 
 
-      
-      <div class="mask d-flex align-items-center h-100 gradient-custom-3" >
+
+      <div class="icon container" id="icon_box">
+        <a href=""> <img src="./icons/angular.svg" alt="" class="ang_icon"></a>
+        <a href=""> <img src="./icons/html.svg" alt="" class="html_icon"></a>
+       <a href=""> <img src="./icons/css.svg" alt="" class="css_icon"></a>
+        <a href=""> <img src="./icons/js.svg" alt="" class="js_icon"></a>
+        <a href=""> <img src="./icons/python.svg" alt="" class="python_icon"></a>
+        <a href=""> <img src="./icons/node.svg" alt="" class="node_icon"></a>
+        <a href=""> <img src="./icons/c.svg" alt="" class="c_icon"></a>
+        <a href=""> <img src="./icons/c.svg" alt="" class="b_icon"></a>
+       </div>
+
+
+
+    
+      <div class="mask d-flex align-items-center h-100 gradient-custom-3" id="test">
         <div class="container h-100">
           <div class="form_row row d-flex justify-content-center align-items-center h-100">
-            <div class="col-12 col-md-9 col-lg-7 col-xl-8">
+            <div class="col-12 col-md-8 col-lg-7 col-sm-8">
               <div class="registration_card card" style="border-radius: 15px;">
-                <div class="card-body p-5">
+                <div class="card-body reg_body">
                   <h2 class="text-center mb-5">ავტორიზაცია</h2>
                   <form>
                     <div class="form-outline mb-4">
@@ -84,12 +83,9 @@
                       <button type="button" class="second_reg_btn btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="showSuccess()" id="success_btn">ავტორიზაცია</button>
                     </div>
                   </form>
-                  <div class="close_btn">
-                 <i class="fas fa-times  close-btn" onclick="hide()"></i>
-                </div>
                 </div>
 
-                <div class="card-body second_body p-5">
+                <div class="card-body reg_body second_body">
                   <h4>გამარჯობა!</h4>
                   <h6>არ ხარ რეგისტრირებული ?</h6>
                   <form>
@@ -110,6 +106,11 @@
           </div>
         </div>
       </div>
+  
+ 
+
+      
+      
 
      
 
@@ -117,6 +118,6 @@
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="./script.js"></script>
+<script src="./script.js" ></script>
 </body>
 </html>

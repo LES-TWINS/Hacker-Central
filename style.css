@@ -1,3 +1,8 @@
+@font-face {
+  font-family: helvetica;
+  src: url("fonts/Linotype-HelveticaNeueLTGEO55Roman.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +11,7 @@
 }
 
 body {
-  font-family: 'Helvetica Neue LT GEO 55 Roman ' !important;
+  font-family: helvetica;
 }
 
 .navbar {
@@ -22,10 +27,6 @@ body {
   color: white;
   border: 1px solid white;
   border-radius: 25px;
-}
-
-.icon, section {
-  display: none;
 }
 
 section {
@@ -68,8 +69,8 @@ section h1 {
 }
 
 .html_icon:hover {
-  -webkit-box-shadow: 0px 0px 22px 0px #DB4A25;
-          box-shadow: 0px 0px 22px 0px #DB4A25;
+  -webkit-box-shadow: 0px 0px 22px 0px #db4a25;
+          box-shadow: 0px 0px 22px 0px #db4a25;
 }
 
 .css_icon {
@@ -80,8 +81,8 @@ section h1 {
 }
 
 .css_icon:hover {
-  -webkit-box-shadow: 0px 0px 22px 0px #1471B6;
-          box-shadow: 0px 0px 22px 0px #1471B6;
+  -webkit-box-shadow: 0px 0px 22px 0px #1471b6;
+          box-shadow: 0px 0px 22px 0px #1471b6;
 }
 
 .js_icon {
@@ -92,8 +93,8 @@ section h1 {
 }
 
 .js_icon:hover {
-  -webkit-box-shadow: 0px 0px 22px 0px #C5A92C;
-          box-shadow: 0px 0px 22px 0px #C5A92C;
+  -webkit-box-shadow: 0px 0px 22px 0px #c5a92c;
+          box-shadow: 0px 0px 22px 0px #c5a92c;
 }
 
 .python_icon {
@@ -104,8 +105,8 @@ section h1 {
 }
 
 .python_icon:hover {
-  -webkit-box-shadow: 0px 0px 22px 0px #34576B;
-          box-shadow: 0px 0px 22px 0px #34576B;
+  -webkit-box-shadow: 0px 0px 22px 0px #34576b;
+          box-shadow: 0px 0px 22px 0px #34576b;
 }
 
 .node_icon {
@@ -116,8 +117,8 @@ section h1 {
 }
 
 .node_icon:hover {
-  -webkit-box-shadow: 0px 0px 22px 0px #8BC64B;
-          box-shadow: 0px 0px 22px 0px #8BC64B;
+  -webkit-box-shadow: 0px 0px 22px 0px #8bc64b;
+          box-shadow: 0px 0px 22px 0px #8bc64b;
 }
 
 .c_icon {
@@ -128,8 +129,8 @@ section h1 {
 }
 
 .c_icon:hover {
-  -webkit-box-shadow: 0px 0px 22px 0px #9C5196;
-          box-shadow: 0px 0px 22px 0px #9C5196;
+  -webkit-box-shadow: 0px 0px 22px 0px #9c5196;
+          box-shadow: 0px 0px 22px 0px #9c5196;
 }
 
 .b_icon {
@@ -140,8 +141,8 @@ section h1 {
 }
 
 .b_icon:hover {
-  -webkit-box-shadow: 0px 0px 22px 0px #9C5196;
-          box-shadow: 0px 0px 22px 0px #9C5196;
+  -webkit-box-shadow: 0px 0px 22px 0px #9c5196;
+          box-shadow: 0px 0px 22px 0px #9c5196;
 }
 
 form {
@@ -156,22 +157,22 @@ form {
 }
 
 .form-outline ::-webkit-input-placeholder {
-  color: #0F1D22 !important;
+  color: #0f1d22 !important;
   font-size: 13px;
 }
 
 .form-outline :-ms-input-placeholder {
-  color: #0F1D22 !important;
+  color: #0f1d22 !important;
   font-size: 13px;
 }
 
 .form-outline ::-ms-input-placeholder {
-  color: #0F1D22 !important;
+  color: #0f1d22 !important;
   font-size: 13px;
 }
 
 .form-outline ::placeholder {
-  color: #0F1D22 !important;
+  color: #0f1d22 !important;
   font-size: 13px;
 }
 
@@ -208,16 +209,17 @@ form {
 }
 
 .registration_card {
+  display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  border: 3px solid rgba(119, 116, 116, 0.446);
 }
 
 .registration_card .second_body {
   background-color: #112026;
-  border-bottom-right-radius: 35px;
-  border-top-right-radius: 35px;
+  border-radius: 11px;
 }
 
 .first_reg_btn {
@@ -239,13 +241,22 @@ form {
   transition: 0.5s;
 }
 
-.card-body h4 {
+.reg_body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 5rem 1rem;
+}
+
+.reg_body h4 {
   text-align: center;
+  color: #fff;
   margin-top: 50px;
 }
 
-.card-body h6 {
+.reg_body h6 {
   text-align: center;
+  color: #fff;
   margin-top: 30px;
 }
 
@@ -272,190 +283,110 @@ form {
   margin-top: 20px;
 }
 
-.card-title, .direction {
-  font-family: 'Outfit', sans-serif;
+.card-title,
+.direction {
+  font-family: "Outfit", sans-serif;
 }
 
 .direction {
-  font-size: 14px;
+  font-size: 18px;
 }
 
-.course-box {
-  margin-top: 50px;
-}
-
-.card1, .card4 {
-  height: 310px;
-  width: 215px;
-}
-
-.card1 {
+#html_card {
   background-color: #e34c26;
 }
 
-.course_card {
-  border-radius: 20px;
-  border: none;
+#java_card {
+  background-color: #dab92d;
 }
 
-.card-body {
+#angular_card {
+  background-color: #B42534;
+}
+
+#python_card {
+  background-color: #8BC74B;
+}
+
+#csharp_card {
+  background-color: #651F78;
+}
+
+#swift_card {
+  background-color: #B42534;
+}
+
+#javascript_card {
+  background-color: #dab92d;
+}
+
+#node_card {
+  background-color: #e34c26;
+}
+
+.course_row {
+  margin: auto;
+}
+
+.course_row a {
+  text-decoration: none;
+}
+
+.course_card {
+  padding: 10px 0px 5px 17px;
+  border-radius: 25px;
+  width: 215px;
+  margin-top: 20px;
+}
+
+.course_card h1 {
+  font-size: 20px;
   color: white;
 }
 
-.card-text {
-  display: contents;
+.course_card h4 {
+  color: #fff;
+  font-size: 13px;
 }
 
-.radius, .radius2, .radius3, .radius4, .radius5, .radius6 {
-  border-radius: 50%;
-  background-color: white;
-  width: 45px;
-  height: 45px;
-  position: absolute;
-  top: 250px;
+.course_card p {
+  font-size: 12px;
+  color: #fff;
 }
 
-.radius {
-  left: 129px;
-  z-index: 9999;
+.course_card .course_body {
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-.radius2, .radius6 {
-  left: 160px;
+.course_card .course_body.card-long {
+  height: 210px;
 }
 
-.course_css {
-  position: absolute;
-  top: 258px;
-  left: 123px;
-  z-index: 9999;
-  width: 55px;
+.course_card .course_body img {
+  width: 50px;
+  border-radius: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: #fff;
 }
 
-.course_html {
-  position: absolute;
-  width: 52px;
-  top: 255px;
-  left: 157px;
-}
-
-.card2 {
-  background-color: #662078;
-  width: 214px;
-  height: 221px;
-}
-
-.radius3 {
-  top: 160px;
-  left: 129px;
-  z-index: 9999;
-}
-
-.radius4 {
-  top: 160px;
-  left: 159px;
-}
-
-.course_c {
-  position: absolute;
-  width: 52px;
-  top: 157px;
-  left: 157px;
-}
-
-.course_asp {
-  position: absolute;
-  width: 52px;
-  top: 157px;
-  left: 125px;
-  z-index: 9999;
-}
-
-.card3 {
-  background-color: #3E863D;
-  width: 214px;
-  height: 268px;
-}
-
-.course_node {
-  position: absolute;
-  width: 95px;
-  top: 209px;
-  left: 135.5px;
-}
-
-.radius5 {
-  top: 205px;
-  left: 159px;
-}
-
-.card4 {
-  background-color: #EA7C26;
-}
-
-.course_swift {
-  position: absolute;
-  top: 253px;
-  left: 163px;
-  width: 35px;
-}
-
-.sec_row {
-  margin-top: 10px;
-}
-
-.sec_row, .eighth_card {
-  width: 214px;
-  height: 221px;
-}
-
-.sixth_card {
-  position: absolute;
-  left: 32.8%;
-  top: 59%;
-  height: 310px;
-  width: 215px;
-}
-
-.seventh_card {
-  position: absolute;
-  left: 50%;
-  top: 64%;
-  width: 214px;
-  height: 268px;
-}
-
-.eighth_card {
-  position: absolute;
-  left: 67.2%;
-  top: 68%;
+.course_card .course_body img:nth-child(even) {
+  position: relative;
+  left: -7px;
 }
 
 .card-column a {
   text-decoration: none;
-}
-
-.long_card {
-  height: 310px;
-  width: 215px;
-}
-
-.short_card {
-  width: 214px;
-  height: 221px;
-  margin-left: 115px;
-}
-
-.middle_card {
-  width: 214px;
-  height: 268px;
-  margin-left: 116px;
-}
-
-.long_card2 {
-  height: 310px;
-  width: 215px;
-  margin-left: 115px;
 }
 
 #syllabus {
@@ -474,7 +405,7 @@ form {
 }
 
 .syl_sec a i {
-  color: #0F1D22;
+  color: #0f1d22;
   vertical-align: middle;
   font-size: 40px;
 }
@@ -536,8 +467,8 @@ form {
 }
 
 .cour_title .btn:focus {
-  -webkit-box-shadow: 0px 0px 15px 0px #0F1D22 !important;
-          box-shadow: 0px 0px 15px 0px #0F1D22 !important;
+  -webkit-box-shadow: 0px 0px 15px 0px #0f1d22 !important;
+          box-shadow: 0px 0px 15px 0px #0f1d22 !important;
 }
 
 .lecturers-box {
@@ -558,15 +489,15 @@ form {
 }
 
 .card-2 {
-  border: 3px solid #DCBD39;
+  border: 3px solid #dcbd39;
 }
 
 .card-3 {
-  border: 3px solid #306FBD;
+  border: 3px solid #306fbd;
 }
 
 .card-4 {
-  border: 3px solid #8EC850;
+  border: 3px solid #8ec850;
 }
 
 .card-title {
@@ -622,23 +553,26 @@ form {
   height: 120px;
 }
 
-.input-group input, .input-group textarea {
+.input-group input,
+.input-group textarea {
   padding-left: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 18px;
 }
 
-.input-group input:focus, .input-group textarea:focus {
-  border-color: #0F1D22 !important;
-  -webkit-box-shadow: 0px 0px 15px 0px #0F1D22 !important;
-          box-shadow: 0px 0px 15px 0px #0F1D22 !important;
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #0f1d22 !important;
+  -webkit-box-shadow: 0px 0px 15px 0px #0f1d22 !important;
+          box-shadow: 0px 0px 15px 0px #0f1d22 !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.input-group input:focus::-webkit-input-placeholder, .input-group textarea:focus::-webkit-input-placeholder {
-  color: #0F1D22 !important;
+.input-group input:focus::-webkit-input-placeholder,
+.input-group textarea:focus::-webkit-input-placeholder {
+  color: #0f1d22 !important;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -651,7 +585,7 @@ form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #0F1d22;
+  color: #0f1d22;
   margin-top: 10px;
 }
 

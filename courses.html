@@ -14,40 +14,41 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a href=""><img src="./logo/HC.svg" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-            <ul class="navbar-nav ">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">მთავარი</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./courses.html">კურსები</a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+      
+    <div class="container-fluid">
+      <a href=""><img src="./logo/HC.svg" class="hc_logo" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">მთავარი</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./lecturers.html">ლექტორები</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./blog.html">ბლოგი</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about us.html">ჩვენს შესახებ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">კონტაქტი</a>
-              </li>
-            </ul>
-            
-          </div>
-          <form class="d-flex">
-            <div class="btn btn-outline-dark reg_btn">ავტორიზაცია</div>
-          </form>
-        </div>
-      </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="./courses.html">კურსები</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./lecturers.html">ლექტორები</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">ბლოგი</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about us.html">ჩვენს შესახებ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">კონტაქტი</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ავტორიზაცია</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
     <div class="intro">
         <div class="intro-box">
@@ -57,212 +58,151 @@
             </div> 
         </div>
     </div>
+<div class="container" id="course_box">
+ <div class="row course_row">
+<div class="col-lg-3 col-sm-12 col-md-6">
+  <div class="course_card" id="html_card">
+    <a href="#" id="first_cou">
+    <h1>HTML & CSS</h1>
+    <h4>ვებ-პროგრამირება </h4>
+    <p>Front End</p>
+     <div class="course_body card-long">
+       <img src="./course_icons/css.png" alt="">
+       <img src="./course_icons/html.png" alt="">
+     </div>
+    </a>
+  </div>
 
-    <div id="course_box">
-      <div class="course-box container">
-        <div class="row">
-            <div class="card-column col-lg-3 col-md-4 col-6 long_card">
-              <a href="#" id="html">
-              <div class="course_card card card1 ">
-               
-                <div class="card-body">
-                  <h5 class="card-title">HTML & CSS</h5>
-                  <p class="card-text">ვებ-პროგრამირება</p>
-                  <p class="direction">Front End</p>
-                    <div class="radius"></div>
-                    <div class="radius2"></div>
-                    
-                     <div class="card-logo"> 
-                          <img src="./course_icons/html.png " class="course_html" alt="">
-                          <img src="./course_icons/css.png"   class="course_css" alt="">
-                        </div>
-                </div>
-              </div>
-            </a>
-              </div>
-            
-        
-            <div class="card-column col-lg-3 col-md-4 col-6 short_card">
-              <a href="#">
-              <div class="course_card card card2">
-                <div class="card-body">
-                  <h5 class="card-title">C#</h5>
-                  <p class="card-text">ვებ-პროგრამირება</p>
-                  <p class="direction">Back End</p>
-                    <div class="radius3"></div>
-                    <div class="radius4"></div>
-                    
-                     <div class="card-logo"> 
-                          <img src="./course_icons/c.png " class="course_c" alt="">
-                          <img src="./course_icons/c.png"   class="course_asp" alt="">
-                        </div>
-                 
-                </div>
-              </div>
-            </a>
-            </div> 
-            <div class="card-column col-lg-3 col-md-4 col-6 middle_card">
-              <a href="#">
-              <div class="course_card card card3">
-                <div class="card-body">
-                    <h5 class="card-title">NODE.JS</h5>
-                  <p class="card-text">ვებ-პროგრამირება</p>
-                  <p class="direction">Back End / Front End</p>
-                    <div class="radius5"></div>
-                 
-                    
-                     <div class="card-logo"> 
-                          <img src="./course_icons/node.png " class="course_node" alt="">
-                        </div>
-                </div>
-              </div>
-            </a>
-            </div> 
-            <div class="card-column col-lg-3 col-md-4 col-6 long_card2">
-              <a href="#">
-              <div class="course_card card card4">
-                <div class="card-body">
-                    <h5 class="card-title">SWIFT</h5>
-                    <p class="card-text">მობაილ-პროგრამირება</p>
-                    <p class="direction">Back End / Front End</p>
-                      <div class="radius6"></div>
-                   
-                      
-                       <div class="card-logo"> 
-                            <img src="./course_icons/swift.png " class="course_swift" alt="">
-                          </div>
-                </div>
-              </div>
-            </a>
-            </div>
-          
-        </div>
-  
-            
-        </div>
+  <div class="course_card" id="javascript_card">
+    <h1>C#</h1>
+    <h4>ვებ პროგრამირება</h4>
+     <p>Front End</p>
+
+     <div class="course_body">
+       <img src="./course_icons/c.png" alt="">
+     </div>
+
+  </div>
+
+</div>
+
+<div class="col-lg-3 col-sm-12 col-md-6">
+
+  <div class="course_card " id="csharp_card">
+    <h1>Python</h1>
+    <h4>კურსი აღწერა</h4>
+    <p>test</p>
+
+     <div class="course_body ">
+       <img src="./course_icons/c.png" alt="">
+       <img src="./course_icons/c.png" alt="">
+     </div>
+
+  </div>
+
+  <div class="course_card" id="angular_card">
+    <h1>Node.Js</h1>
+    <h4>ვებ-პროგრამირება </h4>
+    <p>test</p>
+
+     <div class="course_body card-long">
+       <img src="./course_icons/c.png" alt="">
+       <img src="./course_icons/c.png" alt="">
+     </div>
+
+  </div>
+
+</div>
+<div class="col-lg-3 col-sm-12 col-md-6">
+  <div class="course_card  "id="swift_card">
+    <h1>Node.Js</h1>
+    <h4>ვებ-პროგრამირება </h4>
+    <p>test</p>
+
+     <div class="course_body card-long">
+       <img src="./course_icons/c.png" alt="">
+       <img src="./course_icons/c.png" alt="">
+     </div>
+
+  </div>
+
+  <div class="course_card" id="node_card">
+    <h1>Node.Js</h1>
+    <h4>ვებ-პროგრამირება </h4>
+    <p>test</p>
+
+     <div class="course_body">
+       <img src="./course_icons/c.png" alt="">
+       <img src="./course_icons/c.png" alt="">
+     </div>
+
+  </div>
+
+</div>
+<div class="col-lg-3 col-sm-12 col-md-6">
+  <div class="course_card" id="java_card">
+    <h1>Node.Js</h1>
+    <h4>ვებ-პროგრამირება </h4>
+    <p>test</p>
+
+     <div class="course_body ">
+       <img src="./course_icons/c.png" alt="">
+       <img src="./course_icons/c.png" alt="">
+     </div>
+
+  </div>
+
+  <div class="course_card" id="python_card">
+    <h1>Node.Js</h1>
+    <h4>ვებ-პროგრამირება </h4>
+    <p>test</p>
+
+     <div class="course_body card-long">
+       <img src="./course_icons/c.png" alt="">
+       <img src="./course_icons/c.png" alt="">
+     </div>
+
+  </div>
+
+</div>
+
+ 
 
 
+ </div>
+</div>
 
-        <div class="course-box2 container" >
-          <div class="row">
-     
-              <div class="card-column col-lg-3 col-md-4 col-6 sec_row">
-                <a href="#">
-                <div class="course_card card card2">
-                  <div class="card-body">
-                    <h5 class="card-title">C#</h5>
-                    <p class="card-text">ვებ-პროგრამირება</p>
-                    <p class="direction">Back End</p>
-                      <div class="radius3"></div>
-                      <div class="radius4"></div>
-                      
-                       <div class="card-logo"> 
-                            <img src="./course_icons/c.png " class="course_c" alt="">
-                            <img src="./course_icons/c.png"   class="course_asp" alt="">
-                          </div>
-                   
-                  </div>
-                </div>
-              </a>
-              </div> 
-              <div class="card-column col-lg-3 col-md-4 col-6 sixth_card">
-                <a href="#">
-                <div class="course_card card card1">
-                  <div class="card-body">
-                    <h5 class="card-title">HTML & CSS</h5>
-                    <p class="card-text">ვებ-პროგრამირება</p>
-                    <p class="direction">Front End</p>
-                      <div class="radius"></div>
-                      <div class="radius2"></div>
-                      
-                       <div class="card-logo"> 
-                            <img src="./course_icons/html.png " class="course_html" alt="">
-                            <img src="./course_icons/css.png"   class="course_css" alt="">
-                          </div>
-                  </div>
-                </div>
-              </a>
-              </div> 
-              <div class="card-column col-lg-3 col-md-4 col-6 seventh_card">
-                <a href="#">
-                <div class="course_card card card3">
-                  <div class="card-body">
-                      <h5 class="card-title">NODE.JS</h5>
-                    <p class="card-text">ვებ-პროგრამირება</p>
-                    <p class="direction">Back End / Front End</p>
-                      <div class="radius5"></div>
-                   
-                      
-                       <div class="card-logo"> 
-                            <img src="./course_icons/node.png " class="course_node" alt="">
-                          </div>
-                  </div>
-                </div>
-              </a>
-              </div> 
-              
-              <div class="card-column col-lg-3 col-md-4 col-6 eighth_card">
-                <a href="#">
-                <div class="course_card card card2">
-               
-                  <div class="card-body">
-                    <h5 class="card-title">C#</h5>
-                    <p class="card-text">ვებ-პროგრამირება</p>
-                    <p class="direction">Back End</p>
-                      <div class="radius3"></div>
-                      <div class="radius4"></div>
-                      
-                       <div class="card-logo"> 
-                            <img src="./course_icons/c.png " class="course_c" alt="">
-                            <img src="./course_icons/c.png"   class="course_asp" alt="">
-                          </div>
-                   
-                  </div>
-                </div>
-                </a>
-                </div>
-              </div> 
-          </div>
-          </div>
-        </div>
+
      
 <section id="syllabus" class="syl_sec">
- 
-<div class="container-fluid syl-intro">
-  <a href="#" id="return_course"><i class="fa-solid fa-arrow-left-long"></i> <span>დაბრუნება</span></a>  
-  <img src="./icons/syllabus.png" class="syl" alt="">
-  <div class="syl-details">
-    <p>სილაბუსი</p>
-    <p>4 თვე</p>
-    <p>24 შეხვედრა</p>
-    <p>900 ლარი</p>
+  <div class="container-fluid syl-intro">
+    <a href="#" id="return_course"><i class="fa-solid fa-arrow-left-long"></i> <span>დაბრუნება</span></a>  
+    <img src="./icons/syllabus.png" class="syl" alt="">
+    <div class="syl-details">
+      <p>სილაბუსი</p>
+      <p>4 თვე</p>
+      <p>24 შეხვედრა</p>
+      <p>900 ლარი</p>
+    </div>
   </div>
-</div>
-<div class="cour_title">
-  <h3>ვებ პროგრამირება Front-End (HTML,CSS)</h3>
-  <p>მოკლე კურსი</p>
-  <p>არსებობს წარმოდგენა, რომ ვებგვერდის აწყობა მხოლოდ ტექნიკური განათლების მქონე ადამიანს შეუძლია ისწავლოს. თუმცა, რაც დრო გადის, საპირისპირო სურათს ვხედავთ. სულ უფრო მეტი, სხვადასხვა პროფესიის ადამიანი სწავლობს პროგრამირებას, სხვადასხვა სირთულის აპლიკაციებს ქმნის და თავად აწყობს ვებგვერდებს. ტექნოლოგიების განვითარებამ შესაძლებელი გახადა, რომ სხვადასხვა პროფესიის ადამიანებმა თავად შეძლონ საკუთარი იდეების რეალიზება. თუკი ადრე ინოვაციური იდეის რეალიზებისათვის საჭირო იყო ფინანსები, დღეს ადამიანს შეუძლია, თავად დაეუფლოს იდეის რეალიზებისათვის საჭირო ტექნიკურ ცოდნას, მაგალითად, შეისწავლოს ვებგვერდის აწყობა და შექმნას საკუთარი კომპანიის ვებგვერდი, ააწყოს ონლაინ მაღაზია ან რაიმე სხვა ვირტუალური ონლაინ სერვისი.
-  </p>
-  <p>ამ კურსის ფარგლებში მსმენელები იმ ცოდნას ეუფლებიან, რომელიც მათ საშუალებას აძლევს, გაერკვნენ ვებგვერდის ფუნქციონირების პრინციპებში, ააწყონ სტატიკური ვებგვერდი ან, საჭიროების შემთხვევაში, ცვლილებები შეიტანონ არსებული ვებგვერდის პროგრამულ კოდში, დაგეგმონ და მენეჯმენტი გაუწიონ ვებგვერდის შექმნასთან დაკავშირებულ სამუშაოებს. კურსი პრაქტიკული ხასიათისაა, რომლის ფარგლებში მსმენელები მარტივ ვებგვერდებს ქმნიან HTML პროგრამულ ენაზე CSS-ის გამოყენებით.</p>
-  <p>კურსი არ მოითხოვს პროგრამირების საბაზისო ცოდნას და ნებისმიერი დაინტერესებული პირისათვის ხელმისაწვდომია.
-  </p>
-
-  <button class="btn btn-success">დარეგისტრირდი</button>
-</div>
-</section>
-
-
-
-
-        
-
-
-
+  <div class="cour_title">
+    <h3>ვებ პროგრამირება Front-End (HTML,CSS)</h3>
+    <p>მოკლე კურსი</p>
+    <p>არსებობს წარმოდგენა, რომ ვებგვერდის აწყობა მხოლოდ ტექნიკური განათლების მქონე ადამიანს შეუძლია ისწავლოს. თუმცა, რაც დრო გადის, საპირისპირო სურათს ვხედავთ. სულ უფრო მეტი, სხვადასხვა პროფესიის ადამიანი სწავლობს პროგრამირებას, სხვადასხვა სირთულის აპლიკაციებს ქმნის და თავად აწყობს ვებგვერდებს. ტექნოლოგიების განვითარებამ შესაძლებელი გახადა, რომ სხვადასხვა პროფესიის ადამიანებმა თავად შეძლონ საკუთარი იდეების რეალიზება. თუკი ადრე ინოვაციური იდეის რეალიზებისათვის საჭირო იყო ფინანსები, დღეს ადამიანს შეუძლია, თავად დაეუფლოს იდეის რეალიზებისათვის საჭირო ტექნიკურ ცოდნას, მაგალითად, შეისწავლოს ვებგვერდის აწყობა და შექმნას საკუთარი კომპანიის ვებგვერდი, ააწყოს ონლაინ მაღაზია ან რაიმე სხვა ვირტუალური ონლაინ სერვისი.
+    </p>
+    <p>ამ კურსის ფარგლებში მსმენელები იმ ცოდნას ეუფლებიან, რომელიც მათ საშუალებას აძლევს, გაერკვნენ ვებგვერდის ფუნქციონირების პრინციპებში, ააწყონ სტატიკური ვებგვერდი ან, საჭიროების შემთხვევაში, ცვლილებები შეიტანონ არსებული ვებგვერდის პროგრამულ კოდში, დაგეგმონ და მენეჯმენტი გაუწიონ ვებგვერდის შექმნასთან დაკავშირებულ სამუშაოებს. კურსი პრაქტიკული ხასიათისაა, რომლის ფარგლებში მსმენელები მარტივ ვებგვერდებს ქმნიან HTML პროგრამულ ენაზე CSS-ის გამოყენებით.</p>
+    <p>კურსი არ მოითხოვს პროგრამირების საბაზისო ცოდნას და ნებისმიერი დაინტერესებული პირისათვის ხელმისაწვდომია.
+    </p>
+  
+    <button class="btn btn-success">დარეგისტრირდი</button>
+  </div>
+  </section>
+  
 
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="./script.js"></script>
+<script src="./script.js" ></script>
 </body>
 </html>
