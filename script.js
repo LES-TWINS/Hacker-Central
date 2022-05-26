@@ -59,7 +59,7 @@ const navSlide = () => {
   const navLinks = document.querySelectorAll(".nav-links li");
 
 
-  burger.addEventListener("click", () => {
+  burger?.addEventListener("click", () => {
     // Toggle Nav
     if(ae.style.display=="none"){
       ae.style.display="block";

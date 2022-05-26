@@ -79,7 +79,7 @@ nav{
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 50%;
+      width: 100%;
        transform: translateX(100%);
       // transition: transform 0.5s ease-in;
       li{
@@ -620,3 +620,64 @@ form {
 
 
 
+
+
+
+.footer{
+  margin-top: 100px;
+  padding-top: 30px;
+  background-color: #112026;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  h4{
+    font-size: 19px;
+    text-decoration: underline;
+    margin-bottom: 25px;
+  }
+ 
+  .about-us{
+    width: 20%;
+    p{
+      font-size: 14px;
+    }
+  }
+  .join2{
+   
+   a{
+     display: flex;
+     align-items: center;
+     color: white;
+     text-decoration: none;
+     font-size: 14px;
+     i{
+      margin-right: 10px;
+   
+    }
+   }
+  }
+  .contact-us{
+    a{
+      display: flex;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      margin-top: 10px;
+      text-indent: 2px;
+    }
+    i{
+      font-size: 14px;
+   span{
+     margin-left: 12px;
+    
+   }
+    }
+  }
+}
+
+
+
+             // responsive
+ 
+             

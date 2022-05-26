@@ -87,7 +87,7 @@ nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 50%;
+    width: 100%;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
   }
@@ -615,5 +615,69 @@ form {
 
 .blog_title {
   color: black;
+}
+
+.footer {
+  margin-top: 100px;
+  padding-top: 30px;
+  background-color: #112026;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer h4 {
+  font-size: 19px;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.footer .about-us {
+  width: 20%;
+}
+
+.footer .about-us p {
+  font-size: 14px;
+}
+
+.footer .join2 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer .join2 a i {
+  margin-right: 10px;
+}
+
+.footer .contact-us a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  text-indent: 2px;
+}
+
+.footer .contact-us i {
+  font-size: 14px;
+}
+
+.footer .contact-us i span {
+  margin-left: 12px;
 }
 /*# sourceMappingURL=style.css.map */
