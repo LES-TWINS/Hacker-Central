@@ -53,7 +53,7 @@
 
 
 const navSlide = () => {
-  const ae = document.querySelector(".ae");
+  const main = document.querySelector(".main");
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
@@ -61,10 +61,10 @@ const navSlide = () => {
 
   burger?.addEventListener("click", () => {
     // Toggle Nav
-    if(ae.style.display=="none"){
-      ae.style.display="block";
+    if(main.style.display=="none"){
+      main.style.display="block";
     } else{
-      ae.style.display="none"
+      main.style.display="none"
     }
   
     nav.classList.toggle("nav-active");
