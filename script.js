@@ -21,34 +21,39 @@
 
 
 
-// let course = document.querySelector("#course_box");
-// let hcou = document.querySelector("#first_cou");
-// let ret = document.querySelector("#return_course");
-// let join = document.querySelector("#join");
-// let icbox = document.querySelector("#icon_box");
-// let regbox = document.querySelector(".registration_card");
-// let syl = document.querySelector("#syllabus");
+let course = document.querySelector("#course_box");
+let hcou = document.querySelector("#first_cou");
+let ret = document.querySelector("#return_course");
+let join = document.querySelector("#join");
+let icbox = document.querySelector("#icon_box");
+let regbox = document.querySelector(".registration_card");
+let syl = document.querySelector("#syllabus");
+let close_reg =document.querySelector("#close_reg")
+const nav = document.querySelector(".nav-links");
 
 
-// join?.addEventListener("click", () => {
-//   icbox.style.display = "none";
-//   gsap.fromTo(".registration_card", {y:-100, opacity: 0 }, { y:0, opacity: 1,  });
-//   regbox.style.display = "flex";
-//   document.body.style.backgroundColor="grey";
+join?.addEventListener("click", () => {
+  icbox.style.display = "none";
+  gsap.fromTo(".registration_card", {y:-100, opacity: 0 }, { y:150, opacity: 1,  });
+  regbox.style.display = "flex";
+  document.body.style.backgroundColor="grey";
+// if(nav.style.backgroundColor == "#0f1d22"){
+//   join.classList.toggle("nav-active");
+// }
  
-// });
+});
 
-// hcou?.addEventListener("click", () => {
-//   syl.style.display = "block";
-//   gsap.fromTo("#syllabus", { opacity: 0 }, { opacity: 1, duration: 1 });
-//   course.style.display = "none";
-// });
+hcou?.addEventListener("click", () => {
+  syl.style.display = "block";
+  gsap.fromTo("#syllabus", { opacity: 0 }, { opacity: 1, duration: 1 });
+  course.style.display = "none";
+});
 
-// ret?.addEventListener("click", () => {
-//   gsap.fromTo("#course_box", { opacity: 0 }, { opacity: 1, duration: 1 });
-//   course.style.display = "block";
-//   syl.style.display = "none";
-// });
+ret?.addEventListener("click", () => {
+  gsap.fromTo("#course_box", { opacity: 0 }, { opacity: 1, duration: 1 });
+  course.style.display = "block";
+  syl.style.display = "none";
+});
 
 
 
@@ -67,7 +72,7 @@ const navSlide = () => {
       main.style.display="none"
     }
   
-    nav.classList.toggle("nav-active");
+     nav.classList.toggle("nav-active");
      gsap.fromTo(".nav-links", {opacity:0}, {opacity:1});
 
    
@@ -83,15 +88,8 @@ const navSlide = () => {
       }
     });
 
-
-  //   if(ae.style.display=="none"){
-  //    ae.style.display="block";
-  //  } else{
-  //    ae.style.display="block";
-  //  }
-   
     // Burger Animation
-    burger.classList.toggle('toggle')
+     burger.classList.toggle('toggle')
   });
 
 };
@@ -99,11 +97,28 @@ const navSlide = () => {
 navSlide();
 
 
+function close(){
+  regbox.style.display = 'none'
+  document.body.style.backgroundColor= "#fff";
+}
 
 
+document.addEventListener('click', function(e){
+  if(e.target.classList[0] == 'form_row' || e.target.classList[0] == 'mask' ){
+   close() 
+  }
+})
 
 
+close_reg.addEventListener("click",  () => {
+  close()
+})
 
 
-
-
+// function join1(){
+//   join?.addEventListener('click',function(){
+//     regbox.classList.toggle("registration_card");
+//   })
+ 
+// }
+// join1()

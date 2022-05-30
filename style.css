@@ -33,7 +33,6 @@ nav {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 40%;
   padding-top: 15px;
 }
 
@@ -45,6 +44,7 @@ nav {
 
 .nav-links li {
   list-style-type: none;
+  margin-right: 20px;
 }
 
 .burger {
@@ -61,9 +61,9 @@ nav {
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 1024px) {
-  .nav-links {
-    width: 80%;
+@media screen and (max-width: 862px) {
+  .nav-links li {
+    margin-right: 5px;
   }
 }
 
@@ -72,7 +72,7 @@ nav {
     overflow-x: hidden;
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     right: 0px;
     height: 92vh;
     top: 8vh;
@@ -211,6 +211,20 @@ form {
   transition: 0.5s;
 }
 
+.second_reg_btn:focus {
+  background-color: #112026;
+  color: white !important;
+  border-color: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.btn2 {
+  display: none;
+}
+
 .registration_card {
   display: none;
   -webkit-box-orient: horizontal;
@@ -244,6 +258,24 @@ form {
   transition: 0.5s;
 }
 
+.first_reg_btn:focus {
+  color: #fff !important;
+  background-color: #112026;
+  border-color: #fff !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.close_btn i {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 25px;
+}
+
 .reg_body {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -261,6 +293,15 @@ form {
   text-align: center;
   color: #fff;
   margin-top: 30px;
+}
+
+.form-control:focus {
+  border-color: #0f1d22 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 0px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .intro {
@@ -743,5 +784,45 @@ form {
 
 .footer .contact-us i span {
   margin-left: 12px;
+}
+
+@media screen and (max-width: 765px) {
+  .registration_card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #112026;
+  }
+  .card-body h2 {
+    color: white;
+  }
+  .form-outline p {
+    color: white;
+  }
+  .second_body {
+    display: none;
+  }
+  .btn2 {
+    display: block;
+    background-color: white;
+    color: #0f1d22 !important;
+  }
+  .close_btn i {
+    color: #112026;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 70%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

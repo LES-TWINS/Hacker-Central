@@ -34,7 +34,7 @@ nav{
 .nav-links{
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  // width: 40%;
   padding-top: 15px;
   a{
     color: white;
@@ -45,6 +45,7 @@ nav{
   }
   li{
       list-style-type: none;
+      margin-right: 20px;
   }
 }
 
@@ -60,18 +61,38 @@ nav{
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:862px) {
   .nav-links{
-      width: 80%;
+      li{
+        margin-right: 5px;
+      }
   }
 }
+// @media screen and (max-width:1200) and (min-width:770px) {
+//   .nav-links{
+//     width: 80%;
+//   li{
+//     margin-right: 20px;
+//   }
+//   }
+// }
+
+// @media screen and (max-width:1600px) and (min-width:1250px) {
+//   .nav-links{
+//     width: 60%;
+//   li{
+//     margin-right: 20px;
+//   }
+//   }
+// }
+
 
 @media screen and (max-width:768px) {
   body{
       overflow-x: hidden;
   }
   .nav-links{
-      position: absolute;
+      position: fixed;
       right: 0px;
       height: 92vh;
       top: 8vh;
@@ -259,6 +280,16 @@ form {
     border: 1px solid #0f1d22 !important;
     transition: 0.5s;
   }
+  &:focus{
+    background-color: #112026;
+    color: white !important;
+    border-color: none !important;
+    box-shadow: none !important;
+    transition: 0.5s ease;
+  }
+}
+.btn2{
+  display: none;
 }
 
 .registration_card {
@@ -285,6 +316,22 @@ form {
     color: #112026 !important;
     transition: 0.5s;
   }
+  &:focus{
+    color: #fff !important;
+    background-color: #112026 ;
+    border-color: #fff !important;
+    box-shadow: none !important;
+    transition: 0.5s ease;
+  }
+}
+.close_btn{
+  i{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    font-size: 25px;
+  }
 }
 .reg_body {
     flex: 1 1 auto;
@@ -300,6 +347,16 @@ form {
     margin-top: 30px;
   }
 }
+.form-control:focus{
+  border-color:#0f1d22 !important;
+  box-shadow: none !important;
+  border-radius: 0px;
+  transition: all 0.5s ease;
+}
+
+
+
+
 
 .intro {
   margin-top: 50px;
@@ -741,6 +798,58 @@ form {
 
 
 
+
+
+
+
+
+
+
              // responsive
+
+
+ @media screen  and  (max-width: 765px){
+   .registration_card{
+     flex-direction: column;
+    //  background: linear-gradient(#fff, 50% #112026);
+    // 
+    background-color: #112026;
+    
+   }
+ .card-body{
+   h2{
+     color: white;
+   }
+ }
+ .form-outline p {
+  color: white;
+}
+   .second_body{
+     display: none;
+   }
+   .btn2{
+     display: block;
+     background-color: white;
+     color: #0f1d22 !important;
+   }
+   .close_btn{
+     i{
+      color:#112026;
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      font-size: 25px;
+     }
+   }
+ }
+   
+ @media (min-width: 992px){
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 70%;
+}
+ 
+ }
+
  
              
